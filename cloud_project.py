@@ -7,7 +7,7 @@ import tensorflow as tf
 import matplotlib.pyplot as plt
 ## Loading & Analyzing the Data
 # File path to the uploaded Excel file
-file_path = "C:/Users/AdminDesktop/water_level.csv"
+file_path = "./water_level.csv"
 
 # Loads the dataset
 data = pd.read_csv(file_path)
