@@ -7,10 +7,10 @@ import tensorflow as tf
 import matplotlib.pyplot as plt
 ## Loading & Analyzing the Data
 # File path to the uploaded Excel file
-file_path = "C:/Users/Admin/Documents/Ambu[1]/Ambu/WATERLEVEL.xlsx"
+file_path = ""C:/Users/AdminDesktop/water_level.csv""
 
 # Loads the dataset
-data = pd.read_excel(file_path)
+data = pd.read_csv(file_path)
 data.shape
 display(data)
 data.SiteNo.value_counts()
