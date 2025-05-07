@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 def main():
     st.title("Groundwater Level Prediction Using ANN")
 
-    uploaded_file = st.file_uploader(""C:/Users/Admin/Documents/Ambu[1]/Ambu/WATERLEVEL.xlsx"", type=["xlsx"])
+    uploaded_file = st.file_uploader("C:/Users/Admin/Documents/Ambu[1]/Ambu/WATERLEVEL.xlsx", type=["xlsx"])
 
     if uploaded_file is not None:
         data = pd.read_excel(uploaded_file)
